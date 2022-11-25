@@ -7,5 +7,5 @@ y2 = float(int(input('Введите координату y второй точ�
 k = (math.sqrt((y2-y1) ** 2 + (x2-x1)**2))
 print(round(k,3))
 print(math.floor(k))
-
+print(math.floor(k,2))
 
